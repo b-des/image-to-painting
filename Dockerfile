@@ -1,6 +1,6 @@
 FROM rieckpil/opencv-java:3.4.3
 
-#RUN apt-get update && apt-get install maven -y
+RUN apt-get update && apt-get install maven -y
 
 WORKDIR /code
 
