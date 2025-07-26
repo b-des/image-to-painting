@@ -1,6 +1,6 @@
 FROM yevhengren/opencv-java:u20_o420
 
-
+RUN apt-get update && apt-get install maven -y
 
 WORKDIR /code
 
